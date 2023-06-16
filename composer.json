@@ -13,7 +13,7 @@
         "php": "^8.0.2",
         "composer/installers": "^1.0 || ^2.0",
         "winter/storm": "^1.2",
-        "vdlp/oc-sitemap-plugin": "^3.0"
+        "vdlp/oc-sitemap-plugin": "dev-winter-cms-support"
     },
     "suggest": {
         "rainlab/pages-plugin": "This plugin has support for the RainLab.Pages plugin."
@@ -22,7 +22,11 @@
         {
             "type": "composer",
             "url": "https://gateway.octobercms.com"
-        }
+        },
+		{
+			"type": "vcs",
+			"url": "git@github.com:michaelheider/oc-sitemap-plugin.git"
+		}
     ],
     "minimum-stability": "stable",
     "archive": {
